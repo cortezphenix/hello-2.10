@@ -1,0 +1,27 @@
+======================================
+   GNU Hello 2.10: ./test-suite.log
+======================================
+
+# TOTAL: 5
+# PASS:  3
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  1
+# XPASS: 0
+# ERROR: 0
+
+.. contents:: :depth: 2
+
+SKIP: tests/greeting-2
+======================
+
+./tests/greeting-2: Skipping test: not a full moon night
+
+FAIL: tests/hello-1
+===================
+
+1c1
+< Hello, world!
+---
+> Hello, world! This is the first program which I, Cortez Phenix, have modified the source code. I can't wait to see what the future holds.
+
